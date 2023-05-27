@@ -28,16 +28,15 @@
 }
 
 body{
-    background-color: #ddfe917d;
+    background-color: #d7f2ab46;
     font-family: var(--fonte-padrao);
 }
 
 header{
-   background-color: #0c5b30d2;
     min-height: 150px;
     text-align: center;
     padding: 40px;
-
+    background-image: linear-gradient(to bottom, #56d38e ,#58bf85,#063d1e )
 }
 
 header > h1{
@@ -47,13 +46,14 @@ header > h1{
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.475);
     font-weight: normal;
+   
 
 }
 
 header > p{
     color: white;
     font-size: 1.2em;
-    max-width: 600px;
+    max-width: 6 00px;
     padding-right: 10px;
     padding-left: 10px;
     margin: auto;
@@ -82,8 +82,8 @@ nav > a:hover{
 }
 
 main{
-    min-width:280 px;
-    max-width: 700px;
+    min-width:270px;
+    max-width: 800px;
     margin: auto;
     margin-bottom: 30px;
     background-color: white;
@@ -97,6 +97,7 @@ main h1{
     color: var(--cor5);
     font-family: var(--fonte-Android);
     font-weight: normal;
+    background-image: linear-gradient(to bottom, #f2f9f5, #50dc8f)
 
 }
 
@@ -105,7 +106,7 @@ main h2{
     color: var(--cor4);
     font-size: 1.3em;
     font-weight: normal;
-    
+    background-image: linear-gradient(to bottom, #f2f9f5, #83e1ad);
 }
 
 main  p{
@@ -188,7 +189,7 @@ aside >ul{
 
 footer{
     background-color: var(--cor5);
-    color: hsl(179, 100%, 34%);
+    color: hsl(141, 86%, 72%);
     text-align: center;
     font-size: 0.8em;
     padding: 5px;
